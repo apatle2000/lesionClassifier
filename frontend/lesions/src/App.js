@@ -1,15 +1,11 @@
 import "./styleSheets/App.css";
-// import "";
+import AppContext from "./Context/Appcontext";
 
 function App() {
   return (
-    <div className="App">
-      <>
-      <div className='Body'>
+      <AppContext.Provider value={{}}>
       <span>Hello</span>
-      </div>
-      </>
-    </div>
+      </AppContext.Provider>
   );
 }
 
